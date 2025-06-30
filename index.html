@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech Recycling - Transform E-Waste into Impact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">🌱 EcoTech Recycling</a>
+            <div class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" onclick="closeMobileMenu()">Home</a></li>
+                <li><a href="#services" onclick="closeMobileMenu()">Services</a></li>
+                <li><a href="#impact" onclick="closeMobileMenu()">Impact</a></li>
+                <li><a href="#process" onclick="closeMobileMenu()">Process</a></li>
+                <li><a href="#testimonials" onclick="closeMobileMenu()">Reviews</a></li>
+                <li><a href="#pricing" onclick="closeMobileMenu()">Pricing</a></li>
+                <li><a href="#contact" onclick="closeMobileMenu()">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Transform E-Waste into Environmental Impact</h1>
+                <p>Join our mission to create a sustainable future by responsibly recycling electronic devices. Connect with your community and make a positive difference for our planet.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary" onclick="openModal('donate')">Donate Devices</a>
+                    <a href="#" class="btn btn-secondary" onclick="openModal('sell')">Sell Your Electronics</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="device-container">
+                    <div class="device">📱</div>
+                    <div class="device">💻</div>
+                    <div class="device">🖥️</div>
+                    <div class="device">⌚</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">We provide comprehensive e-waste solutions that benefit both the environment and your community</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <span class="service-icon">♻️</span>
+                    <h3>Device Collection</h3>
+                    <p>Free pickup and collection of electronic devices from homes, offices, and community centers. We make recycling convenient and accessible for everyone.</p>
+                </div>
+                
+                <div class="service-card">
+                    <span class="service-icon">🔄</span>
+                    <h3>Responsible Recycling</h3>
+                    <p>State-of-the-art recycling processes that safely extract valuable materials while ensuring harmful substances are properly handled and disposed of.</p>
+                </div>
+                
+                <div class="service-card">
+                    <span class="service-icon">🤝</span>
+                    <h3>Community Partnerships</h3>
+                    <p>Strong collaborations with local businesses, schools, and organizations to maximize e-waste collection and environmental impact.</p>
+                </div>
+                
+                <div class="service-card">
+                    <span class="service-icon">💰</span>
+                    <h3>Value Recovery</h3>
+                    <p>Get paid for your valuable electronics or choose to donate them for tax benefits. We ensure fair pricing and transparent processes.</p>
+                </div>
+                
+                <div class="service-card">
+                    <span class="service-icon">🌍</span>
+                    <h3>Environmental Impact</h3>
+                    <p>Track the positive environmental impact of your contributions with detailed reports on materials recycled and carbon footprint reduced.</p>
+                </div>
+                
+                <div class="service-card">
+                    <span class="service-icon">📊</span>
+                    <h3>Industry Solutions</h3>
+                    <p>Specialized services for electronics manufacturers and businesses, including bulk collection, data destruction, and compliance reporting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section impact-section" id="impact">
+        <div class="container">
+            <h2 class="section-title">Our Environmental Impact</h2>
+            <p class="section-subtitle">Together, we're making a real difference for our planet</p>
+            
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-number">50,000+</span>
+                    <div>Devices Recycled</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">2.3M</span>
+                    <div>Pounds of E-Waste Diverted</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">15,000</span>
+                    <div>Tons CO₂ Reduced</div>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">500+</span>
+                    <div>Community Partners</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section process-section" id="process">
+        <div class="container">
+            <h2 class="section-title">How It Works</h2>
+            <p class="section-subtitle">Simple steps to make a positive environmental impact</p>
+            
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <h3>Submit Your Devices</h3>
+                    <p>Use our online form to tell us about your electronic devices. We accept smartphones, laptops, tablets, and more.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <h3>Schedule Pickup</h3>
+                    <p>Choose a convenient time for our team to collect your devices. We offer free pickup services in most areas.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <h3>Secure Processing</h3>
+                    <p>Your devices are securely processed with data destruction and environmentally responsible recycling methods.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <h3>Get Rewarded</h3>
+                    <p>Receive payment for valuable devices or a donation receipt for tax benefits. Track your environmental impact online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section testimonials-section" id="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Real stories from people making a difference</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">👩</div>
+                    <p>"EcoTech made recycling my old electronics so easy. The pickup was free and I even got paid for my old laptop!"</p>
+                    <h4>Sarah Johnson</h4>
+                    <small>Homeowner</small>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">👨</div>
+                    <p>"As a business owner, their bulk collection service saved us time and money while helping the environment."</p>
+                    <h4>Michael Chen</h4>
+                    <small>Tech Startup CEO</small>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-avatar">👩‍🏫</div>
+                    <p>"Our school partnered with EcoTech for our electronics drive. They handled everything professionally."</p>
+                    <h4>Linda Martinez</h4>
+                    <small>School Administrator</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section pricing-section" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Service Plans</h2>
+            <p class="section-subtitle">Choose the plan that best fits your e-waste recycling needs</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Individual</h3>
+                    <div class="price">Free</div>
+                    <ul class="features-list">
+                        <li>Free device pickup</li>
+                        <li>Basic recycling service</li>
+                        <li>Donation receipts</li>
+                        <li>Impact tracking</li>
+                        <li>Email support</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModal('donate')">Get Started</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3>Business</h3>
+                    <div class="price">$199<small>/month</small></div>
+                    <ul class="features-list">
+                        <li>Scheduled bulk pickup</li>
+                        <li>Priority processing</li>
+                        <li>Data destruction certificates</li>
+                        <li>Dedicated account manager</li>
+                        <li>Detailed environmental reports</li>
+                        <li>Compliance consulting</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModal('business')">Choose Plan</button>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul class="features-list">
+                        <li>Tailored collection logistics</li>
+                        <li>On-site data destruction</li>
+                        <li>Advanced recycling solutions</li>
+                        <li>24/7 Premium support</li>
+                        <li>Custom reporting & analytics</li>
+                        <li>Global reach capabilities</li>
+                    </ul>
+                    <button class="btn btn-primary" onclick="openModal('enterprise')">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions or ready to start recycling? Contact us!</p>
+            
+            <div class="contact-form-container">
+                <form id="contactForm">
+                    <div class="success-message" id="contactSuccess">Your message has been sent successfully!</div>
+                    <div class="error-message" id="contactError">There was an error sending your message. Please try again.</div>
+                    <div class="loading" id="contactLoading">
+                        <div class="spinner"></div>
+                        Sending...
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contactName">Name</label>
+                        <input type="text" id="contactName" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactEmail">Email</label>
+                        <input type="email" id="contactEmail" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactSubject">Subject</label>
+                        <input type="text" id="contactSubject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactMessage">Message</label>
+                        <textarea id="contactMessage" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About EcoTech</h3>
+                    <p>Leading the way in e-waste recycling, transforming electronic waste into positive environmental and community impact.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#impact">Our Impact</a></li>
+                        <li><a href="#process">How It Works</a></li>
+                        <li><a href="#testimonials">Reviews</a></li>
+                        <li><a href="#pricing">Plans</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact-info">
+                    <h3>Contact Info</h3>
+                    <p>📍 123 EcoTech Avenue, Sydney NSW 2000, Australia</p>
+                    <p>📞 +61 2 1234 5678</p>
+                    <p>📧 info@ecotechrecycling.com.au</p>
+                </div>
+                <div class="footer-section newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Stay updated with our latest news and initiatives.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                    <div class="success-message" id="newsletterSuccess" style="margin-top: 1rem;">Subscribed successfully!</div>
+                    <div class="error-message" id="newsletterError" style="margin-top: 1rem;">Failed to subscribe.</div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 EcoTech Recycling. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <div id="deviceModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalSubtitle"></p>
+
+            <form id="deviceForm">
+                <div class="success-message" id="deviceSuccess">Thank you! We've received your request and will be in touch soon.</div>
+                <div class="error-message" id="deviceError">There was an error submitting your request. Please try again.</div>
+                <div class="loading" id="deviceLoading">
+                    <div class="spinner"></div>
+                    Submitting...
+                </div>
+
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber">
+                </div>
+                <div class="form-group">
+                    <label for="deviceType">Type of Device</label>
+                    <select id="deviceType" name="deviceType" required>
+                        <option value="">Select Device Type</option>
+                        <option value="smartphone">Smartphone</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="desktop">Desktop Computer</option>
+                        <option value="monitor">Monitor</option>
+                        <option value="printer">Printer</option>
+                        <option value="tv">TV</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="deviceCondition">Condition</label>
+                    <select id="deviceCondition" name="deviceCondition" required>
+                        <option value="">Select Condition</option>
+                        <option value="new">New/Unused</option>
+                        <option value="good">Good (Minor wear)</option>
+                        <option value="fair">Fair (Visible wear, functional)</option>
+                        <option value="broken">Broken/Non-functional</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="preferredDate">Preferred Pickup Date</label>
+                    <input type="date" id="preferredDate" name="preferredDate">
+                </div>
+                <div class="form-group">
+                    <label for="address">Pickup Address</label>
+                    <textarea id="address" name="address" rows="3" placeholder="Street, Suburb, Postcode" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="notes">Additional Notes</label>
+                    <textarea id="notes" name="notes" rows="3"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" id="modalSubmitBtn"></button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const navLinks = document.getElementById('navLinks');
+            navLinks.classList.toggle('active');
+        }
+
+        function closeMobileMenu() {
+            const navLinks = document.getElementById('navLinks');
+            if (navLinks.classList.contains('active')) {
+                navLinks.classList.remove('active');
+            }
+        }
+
+        // Modals functionality
+        const deviceModal = document.getElementById('deviceModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalSubtitle = document.getElementById('modalSubtitle');
+        const modalSubmitBtn = document.getElementById('modalSubmitBtn');
+        const deviceForm = document.getElementById('deviceForm');
+        const deviceSuccessMessage = document.getElementById('deviceSuccess');
+        const deviceErrorMessage = document.getElementById('deviceError');
+        const deviceLoading = document.getElementById('deviceLoading');
+
+        function openModal(type) {
+            if (type === 'donate') {
+                modalTitle.textContent = 'Donate Your Electronics';
+                modalSubtitle.textContent = 'Help us give your old devices a new life and reduce e-waste.';
+                modalSubmitBtn.textContent = 'Submit Donation';
+            } else if (type === 'sell') {
+                modalTitle.textContent = 'Sell Your Electronics';
+                modalSubtitle.textContent = 'Get a fair valuation for your devices and contribute to recycling.';
+                modalSubmitBtn.textContent = 'Get Valuation';
+            } else if (type === 'business') {
+                modalTitle.textContent = 'Business Recycling Plan';
+                modalSubtitle.textContent = 'Tell us about your business e-waste needs.';
+                modalSubmitBtn.textContent = 'Enquire Now';
+                // Adjust form fields for business if needed, e.g., add company name
+            } else if (type === 'enterprise') {
+                modalTitle.textContent = 'Enterprise Custom Solutions';
+                modalSubtitle.textContent = 'Let\'s discuss tailored e-waste management for your large organization.';
+                modalSubmitBtn.textContent = 'Contact Sales';
+                // Adjust form fields for enterprise if needed
+            }
+            deviceModal.style.display = 'flex'; // Use flex to center
+        }
+
+        function closeModal() {
+            deviceModal.style.display = 'none';
+            // Reset form and messages
+            deviceForm.reset();
+            deviceSuccessMessage.style.display = 'none';
+            deviceErrorMessage.style.display = 'none';
+            deviceLoading.style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            if (event.target == deviceModal) {
+                closeModal();
+            }
+        }
+
+        // Form submission (Client-side simulation for now)
+        deviceForm.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent default form submission
+
+            deviceSuccessMessage.style.display = 'none';
+            deviceErrorMessage.style.display = 'none';
+            deviceLoading.style.display = 'block';
+
+            // Simulate API call
+            setTimeout(() => {
+                const formData = new FormData(deviceForm);
+                const data = Object.fromEntries(formData.entries());
+                console.log('Device Form Data Submitted:', data);
+
+                // In a real application, you would send this 'data' to your backend server.
+                // Example: fetch('/api/submit-device', { method: 'POST', body: JSON.stringify(data) })
+                // .then(response => response.json())
+                // .then(result => { ... })
+                // .catch(error => { ... });
+
+                deviceLoading.style.display = 'none';
+                // Simulate success or error
+                const success = Math.random() > 0.2; // 80% success rate for demo
+
+                if (success) {
+                    deviceSuccessMessage.style.display = 'block';
+                    deviceForm.reset();
+                } else {
+                    deviceErrorMessage.style.display = 'block';
+                }
+            }, 1500); // Simulate network delay
+        });
+
+        const contactForm = document.getElementById('contactForm');
+        const contactSuccessMessage = document.getElementById('contactSuccess');
+        const contactErrorMessage = document.getElementById('contactError');
+        const contactLoading = document.getElementById('contactLoading');
+
+        contactForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            contactSuccessMessage.style.display = 'none';
+            contactErrorMessage.style.display = 'none';
+            contactLoading.style.display = 'block';
+
+            setTimeout(() => {
+                const formData = new FormData(contactForm);
+                const data = Object.fromEntries(formData.entries());
+                console.log('Contact Form Data Submitted:', data);
+
+                contactLoading.style.display = 'none';
+                const success = Math.random() > 0.2;
+
+                if (success) {
+                    contactSuccessMessage.style.display = 'block';
+                    contactForm.reset();
+                } else {
+                    contactErrorMessage.style.display = 'block';
+                }
+            }, 1500);
+        });
+
+        const newsletterForm = document.getElementById('newsletterForm');
+        const newsletterSuccessMessage = document.getElementById('newsletterSuccess');
+        const newsletterErrorMessage = document.getElementById('newsletterError');
+
+        newsletterForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            newsletterSuccessMessage.style.display = 'none';
+            newsletterErrorMessage.style.display = 'none';
+
+            // In a real application, send the email to a newsletter service (e.g., Mailchimp API, custom backend endpoint)
+            const emailInput = newsletterForm.querySelector('input[type="email"]');
+            const email = emailInput.value;
+            console.log('Newsletter subscription request for:', email);
+
+            // Simulate API call
+            setTimeout(() => {
+                const success = Math.random() > 0.1; // 90% success for demo
+                if (success) {
+                    newsletterSuccessMessage.style.display = 'block';
+                    emailInput.value = ''; // Clear input
+                } else {
+                    newsletterErrorMessage.style.display = 'block';
+                }
+            }, 1000);
+        });
+
+    </script>
+</body>
+</html>
